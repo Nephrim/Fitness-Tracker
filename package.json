@@ -1,0 +1,31 @@
+{
+  "name": "Fitness-Tracker",
+  "version": "1.0.0",
+  "description": "Fitness Tracker!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hhtps://github.com/Nephrim/Fitness-Tracker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "hhtps://github.com/Nephrim/Fitness-Tracker"
+  },
+  "homepage": "hhtps://github.com/Nephrim/Fitness-Tracker",
+  "dependencies": {
+    "clog": "^0.1.6",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
